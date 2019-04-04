@@ -1,3 +1,4 @@
+
 feature 'Attack the other player' do
   scenario 'Player 1 attacking player 2' do
     sign_in_and_play

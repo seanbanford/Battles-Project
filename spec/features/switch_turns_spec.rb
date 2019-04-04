@@ -1,4 +1,4 @@
-describe 'Switch turns' do
+feature 'Switch turns' do
   context 'Seeing the current turn' do
     scenario 'At the start of the game' do
       sign_in_and_play
