@@ -24,7 +24,7 @@ describe Player do
   end
 
   describe '#receive_damage' do
-    ot 'reduces the players hit points' do
+    it 'reduces the players hit points' do
       expect {ted.receive_damage}.to change {ted.hit_points}.by(-10)
     end
   end
